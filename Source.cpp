@@ -30,7 +30,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 	dconf.hInstance = hInstance;
 
 	dconf.pszMainInstruction = TEXT("tnn1nja is not responding");
-	dconf.pszContent = TEXT("If you restart or close the program it will try to recover your information.");
+	dconf.pszContent = TEXT("Youtube can check online for a solution. If you close the stream you might lose entertainment.");
 	dconf.pszWindowTitle = TEXT("This Stream");
 
 	const TASKDIALOG_BUTTON buttonsArray[3] = {
