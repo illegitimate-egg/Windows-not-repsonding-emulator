@@ -29,7 +29,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 	dconf.dwFlags = TDF_USE_COMMAND_LINKS;
 	dconf.hInstance = hInstance;
 
-	dconf.pszMainInstruction = TEXT("tnn1nja.exe is not responding");
+	dconf.pszMainInstruction = TEXT("tnn1nja is not responding");
 	dconf.pszContent = TEXT("If you restart or close the program it will try to recover your information.");
 	dconf.pszWindowTitle = TEXT("This Stream");
 
