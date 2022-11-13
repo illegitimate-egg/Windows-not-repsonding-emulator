@@ -8,10 +8,10 @@
 
 #pragma comment(lib, "ComCtl32.lib")
 
-LPCWSTR locator = L"dsuiext.dll";
+LPCWSTR locator = L"werui.dll";
 
 HINSTANCE hDllInst = LoadLibrary(locator);
-HICON hIcon = LoadIcon(hDllInst, MAKEINTRESOURCE(4097));
+HICON hIcon = LoadIcon(hDllInst, MAKEINTRESOURCE(404));
 
 
 HRESULT CALLBACK DialogCallback(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, LONG_PTR lpRefData) {
@@ -31,7 +31,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
 	dconf.pszMainInstruction = TEXT("tnn1nja.exe is not responding");
 	dconf.pszContent = TEXT("If you restart or close the program it will try to recover your information.");
-	dconf.pszWindowTitle = TEXT("The Stream");
+	dconf.pszWindowTitle = TEXT("This Stream");
 
 	const TASKDIALOG_BUTTON buttonsArray[3] = {
 		{
