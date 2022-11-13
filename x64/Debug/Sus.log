@@ -1,6 +1,0 @@
-﻿  Source.cpp
-C:\Users\camer\source\repos\Sus\Source.cpp(1,1): warning C4005: 'UNICODE': macro redefinition
-C:\Users\camer\source\repos\Sus\Source.cpp(1,1): message : 'UNICODE' previously declared on the command line
-C:\Users\camer\source\repos\Sus\Source.cpp(2,1): warning C4005: '_UNICODE': macro redefinition
-C:\Users\camer\source\repos\Sus\Source.cpp(2,1): message : '_UNICODE' previously declared on the command line
-  Sus.vcxproj -> C:\Users\camer\source\repos\Sus\x64\Debug\Sus.exe
